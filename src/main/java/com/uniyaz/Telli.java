@@ -1,7 +1,15 @@
 package com.uniyaz;
 
 public class Telli extends Enstruman {
-    String ad;
+    int telSayisi;
+
+    public int getTelSayisi() {
+        return telSayisi;
+    }
+
+    public void setTelSayisi(int telSayisi) {
+        this.telSayisi = telSayisi;
+    }
 
     @Override
     void akordAyarla() {
