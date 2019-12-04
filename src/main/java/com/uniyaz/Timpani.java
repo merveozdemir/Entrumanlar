@@ -1,9 +1,6 @@
 package com.uniyaz;
 
-public class Timpani extends VurmaliCalgilar{
-
-
-
+public class Timpani extends Vurmali {
 
     @Override
     void muzikCal() {
@@ -16,5 +13,10 @@ public class Timpani extends VurmaliCalgilar{
         super.akordAyarla();
 
         System.out.println("Akort edilir");
+    }
+
+    @Override
+    void fiyatHesapla(double fiyat) {
+        super.fiyatHesapla(fiyat);
     }
 }

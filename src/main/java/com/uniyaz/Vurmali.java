@@ -1,9 +1,9 @@
 package com.uniyaz;
 
-public class VurmaliCalgilar extends Enstruman {
-
+public class Vurmali extends Enstruman {
 
     boolean perdesiVarMi;
+
 
 
 

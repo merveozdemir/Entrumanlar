@@ -1,6 +1,6 @@
 package com.uniyaz;
 
-public class Darbuka extends VurmaliCalgilar{
+public class Darbuka extends Vurmali {
 
     @Override
     void muzikCal() {

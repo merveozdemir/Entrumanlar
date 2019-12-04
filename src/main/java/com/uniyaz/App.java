@@ -8,6 +8,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Keman keman = new Keman();
+       keman.fiyatHesapla(1000);
+
     }
 }

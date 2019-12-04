@@ -1,6 +1,6 @@
 package com.uniyaz;
 
-public class Marimba extends VurmaliCalgilar {
+public class Marimba extends Vurmali {
 
 
 
@@ -13,5 +13,10 @@ public class Marimba extends VurmaliCalgilar {
     @Override
     void akordAyarla() {
         super.akordAyarla();
+    }
+
+    @Override
+    void fiyatHesapla(double fiyat) {
+        super.fiyatHesapla(fiyat);
     }
 }

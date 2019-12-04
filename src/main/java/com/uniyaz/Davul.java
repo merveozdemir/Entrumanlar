@@ -1,6 +1,6 @@
 package com.uniyaz;
 
-public class Davul extends VurmaliCalgilar{
+public class Davul extends Vurmali {
 
     @Override
     void muzikCal() {
@@ -10,7 +10,6 @@ public class Davul extends VurmaliCalgilar{
 
     @Override
     void akordAyarla() {
-
         System.out.println("Vida ile akort edilir");
     }
 }

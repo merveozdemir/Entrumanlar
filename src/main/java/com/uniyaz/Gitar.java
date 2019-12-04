@@ -12,4 +12,10 @@ public class Gitar extends Telli {
     void muzikCal() {
         System.out.println("Gitar Notalarıyla Müzik Çalındı");
     }
+
+    @Override
+    void fiyatHesapla(double fiyat) {
+        super.fiyatHesapla(fiyat);
+    }
 }
+

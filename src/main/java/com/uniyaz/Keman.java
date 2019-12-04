@@ -14,4 +14,11 @@ public class Keman  extends Yaylilar{
     void akordAyarla() {
         System.out.println("keman akordu yapıldı");
     }
+
+    @Override
+    void fiyatHesapla(double fiyat) {
+        super.fiyatHesapla(fiyat);
+
+    }
 }
+
